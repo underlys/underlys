@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Underlys</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            width: 90vw;
+            max-width: 1200px;
+            justify-content: space-between;
+        }
+        .box {
+            width: 30%;
+            aspect-ratio: 1 / 1; /* Kvadratiske bokser */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid transparent; /* Usynlig kant */
+        }
+        .box img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain; /* Bildene forminskes for å passe */
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            max-width: 600px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"><img src="2.jpg" alt="Bilde 2"></div>
+        <div class="box"><img src="1.jpg" alt="Bilde 1"></div>
+        <div class="box"><img src="3.jpg" alt="Bilde 3"></div>
+    </div>
+    <div class="footer">
+        <p><strong>UNDERLYS / Thomas Amund Johnsen</strong></p>
+        <p>Instagram @johnsenphotography<br>
+        95907675<br>
+        thomas@underlys.no</p>
+        <p><strong>UTDANNING</strong></p>
+        <p>2022 Morten Krogvold workshop trinn 1, 2, 3, 4<br>
+        2019 Kunstfotografutdanning (60sp) Cape Town School of Photography<br>
+        2005 Cand. Philol. i filosofi (360sp) Universitetet i Oslo</p>
+        <p><strong>UTSTILLINGER</strong></p>
+        <p>Bravehearts, Vestfoldmuseene, 2025<br>
+        Rom for melankoli, Oslofjordens Kunstsenter, 2023<br>
+        Alumniutstilling, Cape Town School of Photography, 2020<br>
+        Alumniutstilling, Cape Town School of Photography, 2019<br>
+        Eksamensutstilling, Cape Town School of Photography, 2018<br>
+        Snapshots fra slummen, Galleri Naver, Stavern, 2006<br>
+        Mellom spire og forvitring, Galleri Naver, Stavern, 2004</p>
+    </div>
+</body>
+</html>
